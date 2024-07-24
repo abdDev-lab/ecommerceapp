@@ -9,10 +9,10 @@ class MyServices extends GetxService {
   Future<MyServices> init() async {
     await Firebase.initializeApp(
         options: const FirebaseOptions(
-            apiKey: "AIzaSyD3cbDKM8i3bQwm4eemfS08hR-AVTTtUXk",
-            appId: "1:932275925874:android:11cd93f8b450f1b280a3eb",
-            messagingSenderId: "932275925874",
-            projectId: "amarcket-90ff4"));
+            apiKey: "",
+            appId: "",
+            messagingSenderId: "",
+            projectId: ""));
     sharedPreferences = await SharedPreferences.getInstance();
     return this;
   }
