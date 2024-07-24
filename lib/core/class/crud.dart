@@ -8,10 +8,7 @@ import 'package:http/http.dart' as http;
 import 'package:path/path.dart';
 
 class Crud {
-  Map<String, String> myheaders = {
-    'authorization':
-        'Basic ' + base64Encode(utf8.encode('abdouDev:27112004@Api'))
-  };
+ 
 
   Future<Either<StatusRequest, Map>> postRequest(String link, Map data) async {
     try {
